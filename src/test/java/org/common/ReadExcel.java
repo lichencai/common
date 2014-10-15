@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcel {
 	public static void main(String[] args) throws Exception{
-		String strPath = "F:\\11.xlsx";
+		String strPath = "F:\\11.xls";
 		InputStream in = new FileInputStream(new File(strPath));
 		// 构造 XSSFWorkbook 对象，strPath 传入文件路径  
 		XSSFWorkbook xwb = new XSSFWorkbook(in);  
