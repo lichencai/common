@@ -7,7 +7,11 @@ import java.io.InputStreamReader;
 public class TestReadFile {
 	public static void main(String[] args) throws Exception{
 		
-		FileInputStream fis=new FileInputStream("E:\\file.txt");
+		String str = "110000";
+		System.out.println(Integer.parseInt(str));
+		
+		
+		/*FileInputStream fis=new FileInputStream("E:\\123123.txt");
         InputStreamReader isr=new InputStreamReader(fis, "UTF-8");
         BufferedReader br = new BufferedReader(isr);
         String line="";
@@ -18,6 +22,6 @@ public class TestReadFile {
         br.close();
         isr.close();
         fis.close();
-		System.out.println(str);
+		System.out.println(str);*/
 	}
 }
